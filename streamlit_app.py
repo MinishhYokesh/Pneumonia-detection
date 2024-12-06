@@ -1,3 +1,7 @@
+import os
+
+# Install specific version of TensorFlow
+os.system('pip install tensorflow')
 import tensorflow as tf
 import numpy as np
 from PIL import Image
